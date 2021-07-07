@@ -20,7 +20,7 @@ $num = mysqli_num_rows($result);
 if($num == 1){
 	echo "id is already exist";
 }else{
-	$qy = " insert into userdata(name , password , email , dob) values ('$name','$pass','$emailid','$dob')";
+	$qy = " insert into userdata(username , password , email , dob) values ('$name','$pass','$emailid','$dob')";
 	mysqli_query($con, $qy);
 }
 
