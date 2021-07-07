@@ -12,11 +12,10 @@ mysqli_select_db($con,'phpproject');
 $name = $_POST['username'];
 $pass = $_POST['password'];
 
-$q ="select * from  userdata where name ='$name' && password = '$pass'";
+$q ="select * from  userdata where username ='$name' && password = '$pass'";
 $result = mysqli_query($con, $q);
 $num = mysqli_num_rows($result);
 if($num == 1){
-	$_SESSION['username'] = $name;
 	header('location: index.php');
 }else{
 	header('location:login.php');
