@@ -15,7 +15,6 @@ header('location:login.php');
 </head>
 <body>
   <div class="navbar">
-    <a href="signup.php">Signin</a>&nbsp;&nbsp;&nbsp;
 <a href="login.php">Logout</a>
 </div><br><br>
 
