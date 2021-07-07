@@ -15,7 +15,7 @@ header('location:login.php');
 </head>
 <body>
   <div class="navbar">
-<a href="login.php">Logout</a>
+<a href="logout.php">Logout</a>
 </div><br><br>
 
   <table class="table-data" border="1">
